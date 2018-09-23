@@ -1,0 +1,158 @@
+@media (max-width: 1300px){
+    .overlay_description{
+        font-size: 14px;
+    }
+
+    .overlay_title{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 989px){
+
+    .header_parent{
+        display: none;
+    }
+
+    .secondary_header{
+        display: block;
+    }
+
+    .carousel_overlay{
+        width: 650px;
+    }
+
+
+    .search_section{
+        border-top: 1px solid transparent;
+    }
+
+    
+    .main_title{
+        font-size: 40px;
+    }
+
+    .secondary_title{
+        font-size: 50px;
+    }
+
+    .overlay_paragraph{
+        font-size: 40px;
+    }
+
+    .product_title{
+        justify-content: baseline;
+    }
+
+    .product_title p:nth-child(2) {
+        padding-top: 0;
+        font-size: 15px;
+    }
+
+    .footer_logo{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_logo img{
+        width: 100%;
+    }
+
+
+    .newsletter{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .newsletter_subs{
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 700px){
+
+    .carousel_overlay{
+        width: 450px;
+        left: 40%;
+        top: 50%;
+        transform: translate(-40%, -50%);
+    }
+
+
+    .text_content{
+        width: 90%;
+    }
+
+    .main_title{
+        font-size: 25px;
+    }
+
+    .secondary_title{
+        font-size: 35px;
+    }
+
+    .overlay_paragraph{
+        font-size: 25px;
+    }
+
+    .product_img{
+        width: 100%;
+    }
+
+    .product_img img{
+        width: 100%;
+    }
+
+    .product_title p:nth-child(1) {
+        font-size: 20px;
+    }
+
+    .product_title p:nth-child(2) {
+        padding-top: 0;
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 511px){
+    .carousel_overlay{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+    .product_img{
+        width: 70%;
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -5%);
+    }
+
+    .text_content{
+        padding-top: 100px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .secondary_title{
+        padding-top: 10px;
+    }
+
+    .sidenav_active{
+        width: 300px;
+        visibility: visible;
+        opacity: 1;
+    
+
+}
