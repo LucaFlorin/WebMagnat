@@ -396,7 +396,6 @@ input[type=text]:focus{
 .product_image{
     width: 100%;
     height: 450px;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -405,8 +404,6 @@ input[type=text]:focus{
 }
 
 .product_image img{
-    width: 230px;
-    height: 430px;
     display: block;
     transition: .7s ease-in-out;
 }
