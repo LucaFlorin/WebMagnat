@@ -217,6 +217,10 @@ input[type=text]:focus{
     left: 10%;
     transform: translate(-10%, 0);
     transition: .3s ease-in-out;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 
@@ -268,12 +272,6 @@ input[type=text]:focus{
 }
 
 
-.search_section{
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
 
 
 
@@ -656,7 +654,6 @@ input[type=text]:focus{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
-    background-color:red;
     width: 23%;
     height: 570px;
     text-align: center;
