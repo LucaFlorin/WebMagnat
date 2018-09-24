@@ -1,3 +1,25 @@
+@media (max-width: 1536px){
+    .hero_title{
+        font-size: 63px;
+    }
+
+    .hero_content{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1410px){
+     .newsletter_subs{
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newsletter_button{
+        position: static;
+    }
+}
+
 @media (max-width: 1300px){
     .overlay_description{
         font-size: 14px;
@@ -7,6 +29,72 @@
         font-size: 20px;
     }
 }
+
+
+@media (max-width: 1292px){
+
+
+    .hero_title{
+        font-size: 24px;
+
+    }
+
+    .hero_text{
+        width: 56%;
+        }
+
+    .hero_content{
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 0;
+        padding-top: 5px;
+
+    }
+}
+
+
+@media (max-width : 1166px){
+    .hero_section{
+        flex-flow: column nowrap;
+    }
+
+    .hero_print{
+        width: 100%;
+    }
+
+    .side_content{
+        width: 100%;
+        padding: 100px;
+    }
+
+    .sc_button{
+        width: 30%;
+    }
+
+    .product_image img{
+        transform: scale(.9);
+    }
+
+    .overlay_description{
+        padding-bottom: 10px;
+    }
+
+    .overlay_buttons{
+        padding-top: 8px;
+    }
+
+    .product_price div:nth-child(1){
+        font-size: 18px;
+    }
+
+    .product_price div:nth-child(2){
+        font-size: 16px;
+    }
+}
+
+
+
+
 
 @media (max-width: 989px){
 
@@ -49,11 +137,23 @@
         font-size: 15px;
     }
 
+
+    .hero_mockup{
+        width: 40%;
+    }
+
+
     .footer_logo{
-        width: 50%;
+        width: 20%;
+        margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .list_parent{
+        text-align: center;
+        margin-top: 50px;
     }
 
     .footer_logo img{
@@ -61,7 +161,13 @@
     }
 
 
+    .last_column{
+        display: none;
+    }
+
+
     .newsletter{
+        margin-top: 30px;
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
@@ -74,6 +180,64 @@
         justify-content: center;
         align-items: center;
     }
+
+    .input_box{
+        width: 100%;
+    }
+
+    .newsletter_button{
+        position: static;
+        margin-top: 5px;
+    }
+
+    .product_img{
+        width: 75%;
+        right: -190px;
+    }
+
+
+
+}
+
+@media (max-width: 950px){
+
+
+    .hero_print{
+        flex-flow: column nowrap;
+    }
+
+     .hero_mockup {
+         width: 45%;
+         margin-left:55%;
+         
+     }
+
+}
+
+
+@media (max-width: 767px){
+    .product_image{
+        width: 100%;
+    }
+
+
+    .product_image img{
+        transform: scale(1);
+    }
+    
+    .hero_text{
+        margin-left: 183px;
+    }
+
+    .hero_mockup {
+        width: 45%;
+        margin-left: 35%;
+        
+    }
+
+    .hero_print{
+        background-position: -160px;
+    }
 }
 
 
@@ -84,6 +248,17 @@
         left: 40%;
         top: 50%;
         transform: translate(-40%, -50%);
+    }
+
+    .hero_text{
+        padding-left:0;
+
+    }
+
+
+    .hero_mockup{
+        width: 45%;
+        margin-left: 50%;
     }
 
 
@@ -119,10 +294,42 @@
         padding-top: 0;
         font-size: 15px;
     }
+
+    .product_image{
+        width: 100%;
+    }
+
+    .sc_button{
+        width: 65%;
+    }
+
+
+
+    
 }
 
 
+@media (max-width: 545px){
+   
+    .sc_text1{
+        font-size: 15px;
+    }
+    
+    .sc_text2{
+        font-size: 15px;
+    }
+
+    .side_content{
+        padding: 50px;
+    }
+}
+
 @media (max-width: 511px){
+
+    .hero_section{
+        display: none;
+    }
+
     .carousel_overlay{
         width: 100%;
         height: 100%;
@@ -132,11 +339,16 @@
     }
 
     .product_img{
-        width: 70%;
+        width: 100%;
         position: relative;
-        top: 0;
+        top: -30px;
         left: 50%;
         transform: translate(-50%, -5%);
+    }
+
+    .product_img img{
+
+        transform: scale(.9);
     }
 
     .text_content{
@@ -153,6 +365,14 @@
         width: 300px;
         visibility: visible;
         opacity: 1;
+    }
+
+    .product_image{
+        width: 100%;
+    }
     
 
+    .news_line1{
+        text-align: center;
+    }
 }
