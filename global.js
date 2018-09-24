@@ -25,5 +25,41 @@ $(document).ready(function(){
         $('.line3').toggleClass('line3_active');
         $('.sidenav').toggleClass('sidenav_active');
     });
+
+
+    $(window).scroll(function(){
+        var wScroll = $(this).scrollTop();
+
+        if($(window).scrollTop() > 90) {
+            $(".secondary_header").addClass("secondary_header_active");
+        }
+        else{
+            $(".secondary_header").removeClass("secondary_header_active"); 
+        }
+
+
+
+
+        if(wScroll > $('.product_section').offset().top - 50){
+            $('.product_box').each(function(i){
+                setTimeout(function(){
+                    $('.product_box').eq(i).addClass('product_box_active');
+                }, 150 * (i + 1));
+            });
+
+            
+        }
+
+
+        if(wScroll > $('.recomended_products').offset().top - 50){
+            $('.product_box_scroll').each(function(i){
+                setTimeout(function(){
+                    $('.product_box_scroll').eq(i).addClass('product_box_active');
+                }, 150 * (i + 1));
+            });
+
+            
+        }
+    });
     
-})
+});

@@ -18,15 +18,34 @@
     .newsletter_button{
         position: static;
     }
+
+    .overlay_title{
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 1300px){
     .overlay_description{
-        font-size: 14px;
+        font-size: 15px;
+    }
+    .overlay_title{
+        font-size: 20px;
     }
 
     .overlay_title{
         font-size: 20px;
+    }
+
+    .overlay_buttons{
+        padding-top: 2px;
+    }
+
+    .product_price div:nth-child(1){
+        font-size: 16px;
+    }
+
+    .product_price div:nth-child(2){
+        font-size: 15px;
     }
 }
 
@@ -77,6 +96,8 @@
 
     .overlay_description{
         padding-bottom: 10px;
+        font-size: 15px;
+
     }
 
     .overlay_buttons{
@@ -84,11 +105,11 @@
     }
 
     .product_price div:nth-child(1){
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .product_price div:nth-child(2){
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 
@@ -97,6 +118,11 @@
 
 
 @media (max-width: 989px){
+
+
+    header{
+        margin: 0;
+    }
 
     .header_parent{
         display: none;
